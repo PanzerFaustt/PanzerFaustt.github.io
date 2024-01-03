@@ -1,0 +1,106 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 2240px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+/* HEADER */
+.header{
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #151c39;
+    box-sizing: border-box;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.banner-title, .banner-description {
+    text-align: center;
+    color: white;
+}
+.banner-title{
+    font-size: 48px;
+}
+
+.banner-section{
+    padding: 100px 0;
+    background: url(banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.menu-link:hover{
+    box-shadow: 0px 10px 30px 0px #9587ff;
+}
+
+/* .card-text{
+    padding: 20px;
+} */
+/* cards */
+
+.cards-section{
+    padding: 50px 0px;
+}
+
+.cards-title, .cards-description{
+    color: #151c39 ;
+    text-align: center;
+    
+
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 7px 0px #9e90ff;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0px 10px 30px 0px #9e90ff;
+}
+
+.card-link{
+    text-decoration: none;
+    color: white ;
+}
+
+.card-button{
+    text-align: center;
+    background: #151c39;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cards-title, .card-text{
+    margin-bottom: 10px;
+}
+
+
+/* footer */
+.footer{
+    background: url(footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.copyrights{
+    color: white;
+}
